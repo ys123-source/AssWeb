@@ -4,6 +4,7 @@ h1{
 
 .div-taller{
     height: auto;
+    width: auto;
 }
 
 .div-taller-cover {
@@ -14,7 +15,7 @@ h1{
     background-size:cover;
 }
 
-.inknut-antiqua-regular {
+.inknut-antiqua-regular{
     font-family: "Inknut Antiqua", serif;
     font-weight: 400;
     font-style: normal;
@@ -24,7 +25,7 @@ body {
     font-family: "Inknut Antiqua", serif; color:#b1302b
 }
 
-img {
+.img {
     border-radius: 10px;
 }
 
@@ -47,7 +48,7 @@ h3{
     font-size: 25px;   
 }
 
-p{
+p-e{
     border-style: solid;
     border-width: 5px;  
 }
@@ -81,17 +82,15 @@ p{
     font-size: 30px;
 }
 
-h2.solid {
-    border-style: solid;
-}
 
-.p{
+.p1{
     text-align: left;
 }
 
 .h5{
     font-size: 30px;
 }
+
 .info-card {
     background-color:#8B0000; /* Matches your current section color */
     color: white;
@@ -102,7 +101,6 @@ h2.solid {
     flex-wrap: wrap; /* Adjusts layout for small screens */
     justify-content: space-between;
 }
-
 
 /* Individual sections inside the card */
 .info-card .details {
@@ -117,6 +115,7 @@ h2.solid {
 .info-card p {
     margin: 0; /* Removes extra spacing below text */
 }
+
 .logo img {
     width: 100px; /* 调整 logo 的大小 */
     height: auto;
@@ -132,8 +131,41 @@ h2.solid {
 
 .details > div {
     flex: 1 1 calc(50% - 20px); /* 每个内容块占 50% 宽度，减去间距 */
-    min-width: 200px; /* 最小宽度，避免过窄 */
+    min-width: 200px; /* 最小宽度，避免过窄 */
 }
+ 
+  
+.logo h1{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 90px;
+    padding-left: 5px;
+    
+}
+  
+.details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+h6{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+  
+p{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+  
+.navshoppingcart{
+    width: 25px;
+    height: 25px;
+  }
 
 .bg-yellow{
     background-color: yellow;

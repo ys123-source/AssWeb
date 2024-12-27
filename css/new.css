@@ -5,12 +5,26 @@
   }
 
   .div-taller-cover {
-    height: 900px;
+    height: 500px;
     background-image: url('../asset/image.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
+  body {
+    font-family: "Inknut Antiqua", serif;
+    font-size: 16px;
+    color: #b1302b;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-family: inherit; /* 确保与body一致 */
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+}
 
   /* How it works section */
   
